@@ -386,23 +386,324 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
 <div class="body_classes">wp-singular,page-template,page-template-full_width,page-template-full_width-php,page,page-id-1440,wp-theme-bridge,wp-child-theme-bridge-child,theme-bridge,bridge-core-2.0.9,woocommerce-no-js,page-pre-production-services,stevie_chrome,stevie_windows,pre-production-services,ajax_fade,page_not_loaded,qode-page-loading-effect-enabled,,qode-title-hidden,footer_responsive_adv,qode-content-sidebar-responsive,columns-3,qode-child-theme-ver-1.0.0,qode-theme-ver-19.6,qode-theme-bridge,qode_header_in_grid,wpb-js-composer js-comp-ver-8.0,vc_responsive</div>
 </div>
 <div class="content_inner">
+<br><br>
 
+<!-- MARKETPLACE START -->
 
-<!-- Marketplace placeholder start -->
-<div class="full_width" style="margin-top:120px;">
-    <div class="full_width_inner">
-        <div class="container">
-            <div class="container_inner">
-                <h2 style="text-align:center;margin-bottom:24px;">Asset Marketplace</h2>
+<section class="marketplace-section">
 
-                
+<!-- <div class="wpb_text_column wpb_content_element info_box_type_1 Montserrat Montserrat_line_height"> -->
+<!-- <div class="wpb_wrapper"> -->
+<h2 class="Welcome" style="text-align: center;">Marketplace</h2>
+    <p class="marketplace-subtitle">
+        Purchase custom, high-quality 3D assets for Unity, Unreal, and more.
+    </p>
 
-                <p style="text-align:center;color:#777;margin-top:18px;">Page not yet complete.</p>
+    <!-- Delete when market is ready for production -->
+    <div style="text-align: center;">
+        <span style="display:inline-block;font-size:2rem;color:#1b1919;margin-top:10px;">⚠️Page under construction — Coming soon!⚠️</span>
+    </div>
+
+    <!-- Filters: search + categories + platforms -->
+    <div class="marketplace-filters" style="max-width:1100px;margin:18px auto 36px auto;background:#1a1a1a;padding:20px;border-radius:8px;">
+        <div style="text-align:center;">
+            <input id="marketplace-search" placeholder="Search assets..." type="search" style="width:50%;padding:10px 12px;border-radius:6px;border:1px solid #333;background:#0f0f0f;color:#eee;" />
+        </div>
+        <br />
+        <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;justify-content:center;">
+            <div style="color:#ddd;font-size:0.95rem;margin-right:6px;">Category:</div>
+            <div class="filter-group" data-group="category" style="display:flex;gap:8px;flex-wrap:wrap;">
+                <!-- <label style="font-size:0.85rem;color:#ddd;">
+                    <input type="checkbox" value="characters" /> Characters
+                </label> -->
+                <label style="font-size:0.85rem;color:#ddd;">
+                    <input type="checkbox" value="environments" /> Environments
+                </label>
+                <label style="font-size:0.85rem;color:#ddd;">
+                    <input type="checkbox" value="props" /> Props
+                </label>
+                <!-- <label style="font-size:0.85rem;color:#ddd;">
+                    <input type="checkbox" value="vehicles" /> Vehicles
+                </label> -->
+                <label style="font-size:0.85rem;color:#ddd;">
+                    <input type="checkbox" value="vfx" /> VFX
+                </label>
+                <!-- <label style="font-size:0.85rem;color:#ddd;">
+                    <input type="checkbox" value="ui-icons" /> UI / Icons
+                </label> -->
+                <!-- <label style="font-size:0.85rem;color:#ddd;">
+                    <input type="checkbox" value="animations" /> Animations
+                </label> -->
+            </div>
+        </div>
+
+        <div style="margin-top:12px;display:flex;gap:10px;align-items:center;flex-wrap:wrap;justify-content:center;">
+            <div style="color:#ddd;font-size:0.95rem;margin-right:6px;">Platform:</div>
+            <div class="filter-group" data-group="platform" style="display:flex;gap:8px;flex-wrap:wrap;">
+                <label style="font-size:0.85rem;color:#ddd;"><input type="checkbox" value="unity" /> Unity</label>
+                <label style="font-size:0.85rem;color:#ddd;"><input type="checkbox" value="unreal" /> Unreal</label>
+                <label style="font-size:0.85rem;color:#ddd;"><input type="checkbox" value="universal" /> Universal</label>
             </div>
         </div>
     </div>
-</div>
-<!-- Marketplace placeholder end -->
+
+    <div class="marketplace-grid">
+
+        <!-- Asset cards now include data attributes for category and platform -->
+        <!-- Environments -->
+        <div class="asset-card" data-category="environments" data-platform="unreal">
+            <div class="asset-thumb" style="background-image:url('images/placeholder-asset.png')"></div>
+            <div class="asset-info">
+                <h3 class="asset-title">Modular Environment Kit</h3>
+                <p class="asset-meta">Format: glTF • Engine: Unreal</p>
+            </div>
+        </div>
+
+        <div class="asset-card" data-category="environments" data-platform="unity">
+            <div class="asset-thumb" style="background-image:url('images/placeholder-asset.png')"></div>
+            <div class="asset-info">
+                <h3 class="asset-title">Forest Vegetation Pack</h3>
+                <p class="asset-meta">Format: FBX • Engine: Unity</p>
+            </div>
+        </div>
+
+        <div class="asset-card" data-category="environments" data-platform="universal">
+            <div class="asset-thumb" style="background-image:url('images/placeholder-asset.png')"></div>
+            <div class="asset-info">
+                <h3 class="asset-title">Urban Cityscape Set</h3>
+                <p class="asset-meta">Format: glTF • Engine: Universal</p>
+            </div>
+        </div>
+
+        <div class="asset-card" data-category="environments" data-platform="unity">
+            <div class="asset-thumb" style="background-image:url('images/placeholder-asset.png')"></div>
+            <div class="asset-info">
+                <h3 class="asset-title">Sci-Fi Laboratory</h3>
+                <p class="asset-meta">Format: FBX • Engine: Unity</p>
+            </div>
+        </div>
+
+        <div class="asset-card" data-category="environments" data-platform="unreal">
+            <div class="asset-thumb" style="background-image:url('images/placeholder-asset.png')"></div>
+            <div class="asset-info">
+                <h3 class="asset-title">Medieval Castle Interior</h3>
+                <p class="asset-meta">Format: glTF • Engine: Unreal</p>
+            </div>
+        </div>
+
+        <!-- Props -->
+        <div class="asset-card" data-category="props" data-platform="universal">
+            <div class="asset-thumb" style="background-image:url('images/placeholder-asset.png')"></div>
+            <div class="asset-info">
+                <h3 class="asset-title">Prop Bundle — Furniture</h3>
+                <p class="asset-meta">Format: FBX • Engine: Universal</p>
+            </div>
+        </div>
+
+        <div class="asset-card" data-category="props" data-platform="unreal">
+            <div class="asset-thumb" style="background-image:url('images/placeholder-asset.png')"></div>
+            <div class="asset-info">
+                <h3 class="asset-title">Weapons & Tools</h3>
+                <p class="asset-meta">Format: FBX • Engine: Unreal</p>
+            </div>
+        </div>
+
+        <div class="asset-card" data-category="props" data-platform="unity">
+            <div class="asset-thumb" style="background-image:url('images/placeholder-asset.png')"></div>
+            <div class="asset-info">
+                <h3 class="asset-title">Decorative Objects Pack</h3>
+                <p class="asset-meta">Format: FBX • Engine: Unity</p>
+            </div>
+        </div>
+
+        <div class="asset-card" data-category="props" data-platform="universal">
+            <div class="asset-thumb" style="background-image:url('images/placeholder-asset.png')"></div>
+            <div class="asset-info">
+                <h3 class="asset-title">Tech Gadgets Collection</h3>
+                <p class="asset-meta">Format: glTF • Engine: Universal</p>
+            </div>
+        </div>
+
+        <div class="asset-card" data-category="props" data-platform="unreal">
+            <div class="asset-thumb" style="background-image:url('images/placeholder-asset.png')"></div>
+            <div class="asset-info">
+                <h3 class="asset-title">Kitchen Props Set</h3>
+                <p class="asset-meta">Format: FBX • Engine: Unreal</p>
+            </div>
+        </div>
+
+        <!-- VFX -->
+        <div class="asset-card" data-category="vfx" data-platform="universal">
+            <div class="asset-thumb" style="background-image:url('images/placeholder-asset.png')"></div>
+            <div class="asset-info">
+                <h3 class="asset-title">VFX Pack — Explosions</h3>
+                <p class="asset-meta">Format: USDZ • Engine: Universal</p>
+            </div>
+        </div>
+
+        <div class="asset-card" data-category="vfx" data-platform="unreal">
+            <div class="asset-thumb" style="background-image:url('images/placeholder-asset.png')"></div>
+            <div class="asset-info">
+                <h3 class="asset-title">Magic Effects</h3>
+                <p class="asset-meta">Format: USDZ • Engine: Unreal</p>
+            </div>
+        </div>
+
+        <div class="asset-card" data-category="vfx" data-platform="unity">
+            <div class="asset-thumb" style="background-image:url('images/placeholder-asset.png')"></div>
+            <div class="asset-info">
+                <h3 class="asset-title">Particle Effects Bundle</h3>
+                <p class="asset-meta">Format: FBX • Engine: Unity</p>
+            </div>
+        </div>
+
+        <div class="asset-card" data-category="vfx" data-platform="universal">
+            <div class="asset-thumb" style="background-image:url('images/placeholder-asset.png')"></div>
+            <div class="asset-info">
+                <h3 class="asset-title">Weather Effects Pack</h3>
+                <p class="asset-meta">Format: USDZ • Engine: Universal</p>
+            </div>
+        </div>
+
+        <div class="asset-card" data-category="vfx" data-platform="unreal">
+            <div class="asset-thumb" style="background-image:url('images/placeholder-asset.png')"></div>
+            <div class="asset-info">
+                <h3 class="asset-title">Fire & Smoke Effects</h3>
+                <p class="asset-meta">Format: USDZ • Engine: Unreal</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="marketplace-no-results" style="text-align:center;color:#bbb;display:none;margin-top:22px;">No assets match your filters.</div>
+</section>
+
+<style>
+/* ===== Marketplace Styles ===== */
+
+.marketplace-section {
+    padding: 60px 40px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.marketplace-title {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.marketplace-subtitle {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #3b3a3a;
+    margin-bottom: 20px;
+}
+
+/* Filters */
+.marketplace-filters { color: #ddd; }
+.marketplace-filters input[type="checkbox"] { margin-right:6px; }
+.marketplace-filters input[type="search"] { background:#0f0f0f; }
+
+/* Grid */
+.marketplace-grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    padding-bottom: 40px;
+}
+
+/* Asset cards */
+.asset-card {
+    background: #111;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    cursor: pointer;
+}
+
+.asset-card:hover {
+    transform: scale(1.04);
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.4);
+}
+
+/* Placeholder image */
+.asset-thumb {
+    width: 100%;
+    height: 220px;
+    background: #000;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Info section */
+.asset-info {
+    padding: 16px;
+}
+
+.asset-title {
+    font-size: 1.05rem;
+    margin: 0 0 6px 0;
+    color: #fff;
+}
+
+.asset-meta {
+    font-size: 0.85rem;
+    color: #aaa;
+}
+
+@media (max-width:600px){
+    .asset-thumb{height:160px}
+}
+</style>
+
+<script>
+(function(){
+    function getCheckedValues(group){
+        var inputs = document.querySelectorAll('.filter-group[data-group="'+group+'"] input[type="checkbox"]:checked');
+        return Array.prototype.map.call(inputs,function(i){return i.value;});
+    }
+
+    function matchesFilter(card, selectedCats, selectedPlats, term){
+        var cat = card.getAttribute('data-category') || '';
+        var plat = card.getAttribute('data-platform') || '';
+        var title = (card.querySelector('.asset-title')||{textContent:''}).textContent || '';
+        var matchesCat = selectedCats.length===0 || selectedCats.indexOf(cat) !== -1;
+        var matchesPlat = selectedPlats.length===0 || selectedPlats.indexOf(plat) !== -1;
+        var matchesTerm = term === '' || title.toLowerCase().indexOf(term) !== -1;
+        return matchesCat && matchesPlat && matchesTerm;
+    }
+
+    function applyFilters(){
+        var selectedCats = getCheckedValues('category');
+        var selectedPlats = getCheckedValues('platform');
+        var term = (document.getElementById('marketplace-search').value || '').trim().toLowerCase();
+        var cards = document.querySelectorAll('.marketplace-grid .asset-card');
+        var visible = 0;
+        Array.prototype.forEach.call(cards, function(card){
+            if(matchesFilter(card, selectedCats, selectedPlats, term)){
+                card.style.display = '';
+                visible++;
+            } else {
+                card.style.display = 'none';
+            }
+        });
+        document.getElementById('marketplace-no-results').style.display = (visible===0) ? 'block' : 'none';
+    }
+
+    // Bind events
+    var filterInputs = document.querySelectorAll('.filter-group input[type="checkbox"]');
+    Array.prototype.forEach.call(filterInputs, function(inp){ inp.addEventListener('change', applyFilters); });
+    var search = document.getElementById('marketplace-search');
+    if(search){ search.addEventListener('input', function(){ applyFilters(); }); }
+
+    // Initial run
+    document.addEventListener('DOMContentLoaded', applyFilters);
+})();
+</script>
+
+<!-- MARKETPLACE END -->
 
 
 <style data-type="vc_custom-css-1440" type="text/css">#dont-show { display: none; }
