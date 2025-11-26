@@ -268,8 +268,15 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
 <div class="container_inner clearfix">
 <div class="header_inner_left">
 <div class="mobile_menu_button">
-<span>
-<i class="qode_icon_font_awesome fa fa-bars"></i> </span>
+    <span>
+        <!-- Mobile nav bar icon uses inline SVG hamburger -->
+        <svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg">
+            <title>Menu</title>
+            <rect y="4" width="24" height="2" rx="1" fill="currentColor"></rect>
+            <rect y="11" width="24" height="2" rx="1" fill="currentColor"></rect>
+            <rect y="18" width="24" height="2" rx="1" fill="currentColor"></rect>
+        </svg>
+    </span>
 </div>
 <div class="logo_wrapper">
 <div class="q_logo">
@@ -279,67 +286,75 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
 </div> </div>
 <div class="header_inner_right">
 <div class="side_menu_button_wrapper right">
-<div class="header_bottom_right_widget_holder"><div class="widget_text header_bottom_widget widget_custom_html"><div class="textwidget custom-html-widget"><span class="q_social_icon_holder normal_social" data-color="#222222" data-hover-color="#b97c5e"><a href="https://www.facebook.com/meancatentertainment/" itemprop="url" target="_blank"><i class="qode_icon_font_awesome fa fa-facebook simple_social" style="color: #222222;margin: 0 5px 0 0;font-size: 16px;"></i></a></span><span class="q_social_icon_holder normal_social" data-color="#222222" data-hover-color="#b97c5e"><a href="https://www.instagram.com/" itemprop="url" target="_blank"><i class="qode_icon_font_awesome fa fa-instagram simple_social" style="color: #222222;margin: 0 5px 0 0;font-size: 16px;"></i></a></span><span class="q_social_icon_holder normal_social" data-color="#222222" data-hover-color="#b97c5e"><a href="https://twitter.com/" itemprop="url" target="_blank"><i class="qode_icon_font_awesome fa fa-twitter simple_social" style="color: #222222;margin: 0 5px 0 0;font-size: 16px;"></i></a></span><span class="q_social_icon_holder normal_social" data-color="#222222" data-hover-color="#b97c5e"><a href="https://www.linkedin.com/company/mean-cat-entertainment/" itemprop="url" target="_blank"><i class="qode_icon_font_awesome fa fa-linkedin simple_social" style="color: #222222;margin: 0 5px 0 0;font-size: 16px;"></i></a></span></div></div></div>
+
+<!-- Header Socials -->
+<div class="header_bottom_right_widget_holder">
+    <div class="widget_text header_bottom_widget widget_custom_html">
+        <div class="textwidget custom-html-widget">
+            <a href="https://www.facebook.com/meancatentertainment/" itemprop="url" target="_blank" aria-label="Facebook" class="q_social_icon_holder" style="display:inline-block;margin-right:8px;">
+                <img src="images/Facebook_Logo_Primary.png" alt="Facebook" style="width:16px;height:16px;display:inline-block;vertical-align:middle;" loading="lazy">
+            </a>
+
+            <a href="https://www.instagram.com/" itemprop="url" target="_blank" aria-label="Instagram" class="q_social_icon_holder" style="display:inline-block;margin-right:8px;">
+                <img src="images/Instagram_Glyph_Gradient.png" alt="Instagram" style="width:16px;height:16px;display:inline-block;vertical-align:middle;" loading="lazy">
+            </a>
+
+            <a href="https://x.com/" itemprop="url" target="_blank" aria-label="X" class="q_social_icon_holder" style="display:inline-block;margin-right:8px;">
+                <img src="images/x-logo-black.png" alt="X" style="width:16px;height:16px;display:inline-block;vertical-align:middle;" loading="lazy">
+            </a>
+
+            <a href="https://www.linkedin.com/company/mean-cat-entertainment/" itemprop="url" target="_blank" aria-label="LinkedIn" class="q_social_icon_holder" style="display:inline-block;">
+                <img src="images/LI-In-Bug.png" alt="LinkedIn" style="width:16px;height:16px;display:inline-block;vertical-align:middle;" loading="lazy">
+            </a>
+        </div>
+    </div>
+</div>
+
 <div class="side_menu_button">
 </div>
 </div>
 </div>
+
+
+<!-- NAV BAR -->
 <nav class="main_menu drop_down right">
-<ul class="" id="menu-2024-main-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home narrow" id="nav-menu-item-1344"><a class="" href=""><i class="menu_icon blank fa"></i><span>Home</span><span class="plus"></span></a></li>
-<li class="top_level_menu_item menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has_sub narrow" id="nav-menu-item-1329"><a class="" href="mean-cat-products.html"><i class="menu_icon blank fa"></i><span>Products</span><span class="plus"></span></a>
-<div class="second"><div class="inner"><ul>
-<li class="menu-item menu-item-type-post_type menu-item-object-page" id="nav-menu-item-1402"><a class="" href="mean-cat-fx-studio.html"><i class="menu_icon blank fa"></i><span>Mean Cat FX Studio</span><span class="plus"></span></a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page" id="nav-menu-item-1624"><a class="" href="mean-cat-mobile.html"><i class="menu_icon blank fa"></i><span>Mean Cat Mobile</span><span class="plus"></span></a></li>
-</ul></div></div>
-</li>
-<li class="top_level_menu_item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has_sub narrow" id="nav-menu-item-1332"><a class="" href="#"><i class="menu_icon blank fa"></i><span>Services</span><span class="plus"></span></a>
-<div class="second"><div class="inner"><ul>
-<li class="menu-item menu-item-type-post_type menu-item-object-page" id="nav-menu-item-1467"><a class="" href="pre-production-services.html"><i class="menu_icon blank fa"></i><span>Pre-Production</span><span class="plus"></span></a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page" id="nav-menu-item-1484"><a class="" href="virtual-production-services.html"><i class="menu_icon blank fa"></i><span>Virtual Production</span><span class="plus"></span></a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page" id="nav-menu-item-1495"><a class="" href="post-virtual-production-services.html"><i class="menu_icon blank fa"></i><span>Post – Virtual Production</span><span class="plus"></span></a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page" id="nav-menu-item-1504"><a class="" href="live-events-streaming-broadcasts.html"><i class="menu_icon blank fa"></i><span>Live Events &amp; Streaming/Broadcasts</span><span class="plus"></span></a></li>
-</ul></div></div>
-</li>
-<li class="top_level_menu_item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has_sub narrow" id="nav-menu-item-1338"><a class="" href="#"><i class="menu_icon blank fa"></i><span>About</span><span class="plus"></span></a>
-<div class="second"><div class="inner"><ul>
-<li class="menu-item menu-item-type-post_type menu-item-object-page" id="nav-menu-item-1571"><a class="" href="13-powerful-advantages-and-tremendous-cost-savings-with-virtual-production.html"><i class="menu_icon blank fa"></i><span>13 Powerful Advantages &amp; Cost Savings</span><span class="plus"></span></a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page" id="nav-menu-item-1340"><a class="" href="clients.html"><i class="menu_icon blank fa"></i><span>Clients</span><span class="plus"></span></a></li>
-</ul></div></div>
-</li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-169 current_page_item active narrow" id="nav-menu-item-1342"><a class="current" href="contact-us.html"><i class="menu_icon blank fa"></i><span>Contact</span><span class="plus"></span></a></li>
-</ul> </nav>
+    <ul class="" id="menu-2024-main-menu">
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home page_item page-item-1218 narrow" id="nav-menu-item-1344"><a class="" href="index.html"><i class="menu_icon blank fa"></i><span>Home</span></a></li>
+        <li class="top_level_menu_item menu-item menu-item-type-post_type menu-item-object-page narrow" id="nav-menu-item-1329"><a class="" href="marketplace.html"><i class="menu_icon blank fa"></i><span>Market</span></a></li>
+        <li class="top_level_menu_item menu-item menu-item-type-custom menu-item-object-custom narrow" id="nav-menu-item-1332"><a class="" href="services.html"><i class="menu_icon blank fa"></i><span>Services</span></a></li>
+        <li class="top_level_menu_item menu-item menu-item-type-custom menu-item-object-custom narrow" id="nav-menu-item-1338"><a class="" href="about.html"><i class="menu_icon blank fa"></i><span>About</span></a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page narrow" id="nav-menu-item-1342"><a class="current" href="contact-us.html"><i class="menu_icon blank fa"></i><span>Contact</span></span></a></li>
+    </ul>
+</nav>
+
+<!-- MOBILE NAV BAR -->
 <nav class="mobile_menu">
-<ul class="" id="menu-2024-main-menu-1"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home" id="mobile-menu-item-1344"><a class="" href=""><span>Home</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-<li class="top_level_menu_item menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children has_sub" id="mobile-menu-item-1329"><a class="" href="mean-cat-products.html"><span>Products</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-<ul class="sub_menu">
-<li class="menu-item menu-item-type-post_type menu-item-object-page" id="mobile-menu-item-1402"><a class="" href="mean-cat-fx-studio.html"><span>Mean Cat FX Studio</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page" id="mobile-menu-item-1624"><a class="" href="mean-cat-mobile.html"><span>Mean Cat Mobile</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-</ul>
-</li>
-<li class="top_level_menu_item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has_sub" id="mobile-menu-item-1332"><a class="" href="#"><span>Services</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-<ul class="sub_menu">
-<li class="menu-item menu-item-type-post_type menu-item-object-page" id="mobile-menu-item-1467"><a class="" href="pre-production-services.html"><span>Pre-Production</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page" id="mobile-menu-item-1484"><a class="" href="virtual-production-services.html"><span>Virtual Production</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page" id="mobile-menu-item-1495"><a class="" href="post-virtual-production-services.html"><span>Post – Virtual Production</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page" id="mobile-menu-item-1504"><a class="" href="live-events-streaming-broadcasts.html"><span>Live Events &amp; Streaming/Broadcasts</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-</ul>
-</li>
-<li class="top_level_menu_item menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has_sub" id="mobile-menu-item-1338"><a class="" href="#"><span>About</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-<ul class="sub_menu">
-<li class="menu-item menu-item-type-post_type menu-item-object-page" id="mobile-menu-item-1571"><a class="" href="13-powerful-advantages-and-tremendous-cost-savings-with-virtual-production.html"><span>13 Powerful Advantages &amp; Cost Savings</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page" id="mobile-menu-item-1340"><a class="" href="clients.html"><span>Clients</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-</ul>
-</li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-169 current_page_item active" id="mobile-menu-item-1342"><a class="current" href="contact-us.html"><span>Contact</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
-</ul></nav> </div>
+    <ul class="" id="menu-2024-main-menu-1">
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home page_item page-item-1218" id="mobile-menu-item-1344"><a class="" href="index.html"><span>Home</span></a></li>
+        <li class="top_level_menu_item menu-item menu-item-type-post_type menu-item-object-page" id="mobile-menu-item-1329"><a class="" href="marketplace.html"><span>Market</span></a></li>
+        <li class="top_level_menu_item menu-item menu-item-type-custom menu-item-object-custom" id="mobile-menu-item-1332"><a class="" href="services.html"><span>Services</span></a></li>
+        <li class="top_level_menu_item menu-item menu-item-type-custom menu-item-object-custom" id="mobile-menu-item-1338"><a class="" href="about.html"><span>About</span></a></li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page current_page_item active" id="mobile-menu-item-1342"><a class="current" href="contact-us.html"><span>Contact</span></a></li>
+    </ul>
+</nav>
 </div>
 </div>
 </div>
 </div>
-</header> <a href="#" id="back_to_top">
+</div>
+
+
+</header>
+
+<!-- Back to top button -->
+<a href="#" id="back_to_top">
 <span class="fa-stack">
-<i class="qode_icon_font_awesome fa fa-arrow-up"></i> </span>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" aria-hidden="true">
+<path d="M12 19V5M5 12l7-7 7 7"/>
+</svg>
+</span>
 </a>
+
 <div class="content">
 <div class="meta">
 <div class="seo_title">  Contact us</div>
@@ -366,6 +381,9 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
 </div>
 </div>
 </div>
+
+
+<!-- Contact Form -->
 <div class="full_width">
 <div class="full_width_inner">
 <div class="wpb-content-wrapper"><div class="vc_row wpb_row section vc_row-fluid grid_section" style=" padding-top:123px; padding-bottom:103px; text-align:left;"><div class="section_inner clearfix"><div class="section_inner_margin clearfix"><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="q_elements_holder one_column responsive_mode_from_768"><div class="q_elements_item" data-animation="no" data-item-class="q_elements_holder_custom_699951"><div class="q_elements_item_inner"><div class="q_elements_item_content q_elements_holder_custom_699951" style="padding:0 10% 38px 0">
@@ -384,68 +402,227 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
 </div> </div></div></div></div>
 <div class="wpcf7 no-js" data-wpcf7-id="7" dir="ltr" id="wpcf7-f7-p169-o1" lang="en">
 <div class="screen-reader-response"><p aria-atomic="true" aria-live="polite" role="status"></p> <ul></ul></div>
-<form action="/contact-us/#wpcf7-f7-p169-o1" aria-label="Contact form" class="wpcf7-form init default" data-status="init" method="post" novalidate="novalidate">
-<fieldset class="hidden-fields-container"><input name="_wpcf7" type="hidden" value="7"/><input name="_wpcf7_version" type="hidden" value="6.1.1"/><input name="_wpcf7_locale" type="hidden" value="en"/><input name="_wpcf7_unit_tag" type="hidden" value="wpcf7-f7-p169-o1"/><input name="_wpcf7_container_post" type="hidden" value="169"/><input name="_wpcf7_posted_data_hash" type="hidden" value=""/>
-</fieldset>
-<p><label> Your Name (required)<br/>
-<span class="wpcf7-form-control-wrap" data-name="your-name"><input aria-invalid="false" aria-required="true" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" maxlength="400" name="your-name" size="40" type="text" value=""/></span> </label>
-</p>
-<p><label> Your Email (required)<br/>
-<span class="wpcf7-form-control-wrap" data-name="your-email"><input aria-invalid="false" aria-required="true" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email" maxlength="400" name="your-email" size="40" type="email" value=""/></span> </label>
-</p>
-<p><label> Your Location (required)<br/>
-<span class="wpcf7-form-control-wrap" data-name="location"><input aria-invalid="false" aria-required="true" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" maxlength="400" name="location" placeholder="Somehwere" size="40" type="text" value=""/></span></label>
-</p>
-<p><label> Subject<br/>
-<span class="wpcf7-form-control-wrap" data-name="your-subject"><input aria-invalid="false" class="wpcf7-form-control wpcf7-text" maxlength="400" name="your-subject" size="40" type="text" value=""/></span> </label>
-</p>
-<p><label> Your Message<br/>
-<span class="wpcf7-form-control-wrap" data-name="your-message"><textarea aria-invalid="false" class="wpcf7-form-control wpcf7-textarea" cols="40" maxlength="2000" name="your-message" rows="10"></textarea></span> </label>
-</p>
-<div class="captcha">
-<p>Input this code: <input name="_wpcf7_captcha_challenge_captcha-778" type="hidden" value="3177631158"/><img alt="captcha" class="wpcf7-form-control wpcf7-captchac wpcf7-captcha-captcha-778" decoding="async" height="28" src="images/3177631158.png" width="84"/><br/>
-<span class="wpcf7-form-control-wrap" data-name="captcha-778"><input aria-invalid="false" autocomplete="off" class="wpcf7-form-control wpcf7-captchar" maxlength="4" name="captcha-778" size="4" type="text" value=""/></span>
-</p>
-</div>
-<p><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="Send"/>
-</p><div aria-hidden="true" class="wpcf7-response-output"></div>
+
+<form action="https://formspree.io/f/mqajvaeo" method="POST" class="wpcf7-form init default" novalidate="novalidate">
+
+    <p><label> Your Name*<br/>
+    <span class="wpcf7-form-control-wrap">
+        <input aria-required="true" class="wpcf7-form-control wpcf7-text" maxlength="400" name="name" size="40" type="text" required>
+    </span> 
+    </label></p>
+
+    <p><label> Your Email*<br/>
+    <span class="wpcf7-form-control-wrap">
+        <input aria-required="true" class="wpcf7-form-control wpcf7-email wpcf7-text" maxlength="400" name="email" size="40" type="email" required>
+    </span> 
+    </label></p>
+
+    <p><label> Your Location*<br/>
+    <span class="wpcf7-form-control-wrap">
+        <input aria-required="true" class="wpcf7-form-control wpcf7-text" maxlength="400" name="location" size="40" type="text" required>
+    </span></label>
+    </p>
+
+    <p><label> Your Message<br/>
+    <span class="wpcf7-form-control-wrap">
+        <textarea class="wpcf7-form-control wpcf7-textarea" cols="40" maxlength="2000" name="message" rows="10" required></textarea>
+    </span> 
+    </label></p>
+
+    <p>
+        <input class="wpcf7-form-control wpcf7-submit" type="submit" value="Send">
+    </p>
+
+    <div id="form-success" style="display:none; color:green; margin-top:10px;">
+        Thank you! Your message has been sent.
+    </div>
+
+    <div id="form-error" style="display:none; color:red; margin-top:10px;">
+    </div>
+
 </form>
+<!-- Form JS -->
+<script>
+document.querySelector('.wpcf7-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const form = this;
+    const nameField = form.querySelector('input[name="name"]');
+    const emailField = form.querySelector('input[name="email"]');
+    const locationField = form.querySelector('input[name="location"]');
+    const errorDiv = document.getElementById("form-error");
+
+    // Reset error messages
+    errorDiv.style.display = "none";
+    errorDiv.textContent = "";
+
+    // Validate name
+    const name = nameField.value.trim();
+    if (!name) {
+        errorDiv.textContent = "Please enter your name.";
+        errorDiv.style.display = "block";
+        nameField.focus();
+        return;
+    }
+
+    // Validate location
+    const location = locationField.value.trim();
+    if (!location) {
+        errorDiv.textContent = "Please enter your location.";
+        errorDiv.style.display = "block";
+        locationField.focus();
+        return;
+    }
+
+    // Validate email
+    const email = emailField.value.trim();
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+        errorDiv.textContent = "Please enter a valid email address.";
+        errorDiv.style.display = "block";
+        emailField.focus();
+        return;
+    }
+
+    // Convert form data to JSON
+    const data = Object.fromEntries(new FormData(form).entries());
+
+    fetch(form.action, {
+        method: "POST",
+        headers: { 
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+    })
+    .then(res => {
+        if (res.ok) {
+            document.getElementById("form-success").style.display = "block";
+            form.reset();
+        } else {
+            res.json().then(json => {
+                errorDiv.textContent = json?.error || "There was a problem sending your message.";
+                errorDiv.style.display = "block";
+            }).catch(() => {
+                errorDiv.textContent = "There was a problem sending your message.";
+                errorDiv.style.display = "block";
+            });
+        }
+    })
+    .catch(() => {
+        errorDiv.textContent = "Network error — please try again later.";
+        errorDiv.style.display = "block";
+    });
+});
+</script>
+
 </div>
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6"><div class="vc_column-inner"><div class="wpb_wrapper"> <div class="vc_empty_space" style="height: 75px"><span class="vc_empty_space_inner">
 <span class="empty_space_image"></span>
 </span></div>
-</div></div></div></div></div></div><section class="parallax_section_holder" data-speed="1" style=" height:px; background-image:url('images/subscribe.jpg');"><div class="parallax_content center"><div class="parallax_section_inner_margin clearfix"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="q_elements_holder one_column responsive_mode_from_768"><div class="q_elements_item" data-480="163px 3% 162px 3%" data-480-600="163px 3% 162px 3%" data-animation="no" data-item-class="q_elements_holder_custom_321722" style="vertical-align:middle;text-align:center;"><div class="q_elements_item_inner"><div class="q_elements_item_content q_elements_holder_custom_321722" style="padding:163px 21% 162px 21%">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2><span style="color: #ffffff;">Subscribe to Newsletter</span></h2>
+</div></div></div></div></div></div>
+
+<!-- Newsletter Section -->
+<div class="vc_row wpb_row section vc_row-fluid grid_section" style=" padding-top:20px; text-align:left;">
+    <div class="section_inner clearfix">
+        <div class="section_inner_margin clearfix">
+            <div class="element_from_fade">
+                <div style="transition-delay:.3ms; -webkit-animation-delay:.3ms; animation-delay:.3ms;">
+                    <div class="wpb_column vc_column_container vc_col-sm-1">
+                        <div class="vc_column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="wpb_text_column wpb_content_element">
+                                    <div class="wpb_wrapper"><p></p></div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-10">
+                        <div class="vc_column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="vc_empty_space" style="height: 2px">
+                                    <span class="vc_empty_space_inner">
+                                        <span class="empty_space_image"></span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-1">
+                        <div class="vc_column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="wpb_text_column wpb_content_element">
+                                    <div class="wpb_wrapper"><p></p></div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-</div> <div class="vc_empty_space" style="height: 48px"><span class="vc_empty_space_inner">
-<span class="empty_space_image"></span>
-</span></div>
-<div class="wpcf7 no-js" data-wpcf7-id="34" dir="ltr" id="wpcf7-f34-p169-o2" lang="en-US">
-<div class="screen-reader-response"><p aria-atomic="true" aria-live="polite" role="status"></p> <ul></ul></div>
-<form action="/contact-us/#wpcf7-f34-p169-o2" aria-label="Contact form" class="wpcf7-form init cf7_custom_style_1" data-status="init" method="post" novalidate="novalidate">
-<fieldset class="hidden-fields-container"><input name="_wpcf7" type="hidden" value="34"/><input name="_wpcf7_version" type="hidden" value="6.1.1"/><input name="_wpcf7_locale" type="hidden" value="en_US"/><input name="_wpcf7_unit_tag" type="hidden" value="wpcf7-f34-p169-o2"/><input name="_wpcf7_container_post" type="hidden" value="169"/><input name="_wpcf7_posted_data_hash" type="hidden" value=""/>
-</fieldset>
-<div class="two_columns_form_without_space">
-<div class="column_left">
-<p><span class="wpcf7-form-control-wrap" data-name="email-831"><input aria-invalid="false" aria-required="true" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email" maxlength="400" name="email-831" placeholder="Email address please*" size="40" type="email" value=""/></span>
-</p>
+
+<div class="vc_row wpb_row section vc_row-fluid" style="background-image:url(images/man-standing-on-stage-holding-microphone-1870438.1900x1200.jpg); text-align:center;">
+    <div class="full_section_inner clearfix">
+        <div class="wpb_column vc_column_container vc_col-sm-12">
+            <div class="vc_column-inner">
+                <div class="wpb_wrapper">
+                    <div class="q_elements_holder one_column responsive_mode_from_768">
+                        <div class="q_elements_item subscribe" style="vertical-align:middle;text-align:center;">
+                            <div class="q_elements_item_inner">
+                                <div class="q_elements_item_content" style="padding:68px 21% 68px 21%">
+                                    <div class="wpb_text_column wpb_content_element">
+                                        <div class="wpb_wrapper">
+                                            <h2><span style="color: #ffffff;">Subscribe to Newsletter</span></h2>
+                                        </div>
+                                    </div>
+
+                                    <!-- FORM -->
+                                    <form id="newsletter-form" class="wpcf7-form init cf7_custom_style_1" novalidate>
+                                        <div class="two_columns_form_without_space">
+                                            <div class="column_left">
+                                                <p>
+                                                    <span class="wpcf7-form-control-wrap">
+                                                        <input 
+                                                            type="email" 
+                                                            name="email" 
+                                                            placeholder="Email address please*" 
+                                                            maxlength="400"
+                                                            class="wpcf7-form-control wpcf7-email wpcf7-text"
+                                                            required
+                                                        />
+                                                    </span>
+                                                </p>
+                                            </div>
+                                            <div class="column_right">
+                                                <p>
+                                                    <input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="Subscribe"/>
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div id="newsletter-success" style="display:none; color:#7fff7f; margin-top:10px;">
+                                            Thank you for subscribing!
+                                        </div>
+                                        <div id="newsletter-error" style="display:none; color:#ff7f7f; margin-top:10px;">
+                                        </div>
+                                    </form>
+                                    <!-- END FORM -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<div class="column_right">
-<p><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="Subscribe"/>
-</p>
 </div>
-</div><div aria-hidden="true" class="wpcf7-response-output"></div>
-</form>
-</div>
-</div></div></div></div></div></div></div></div></div></section>
-</div>
-</div>
-</div>
-</div>
-</div>
+</div></div></div></div>
+
 <footer>
+
 <div class="footer_inner clearfix">
 <div class="footer_top_holder">
 <div class="footer_top">
@@ -664,5 +841,7 @@ var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"base64":fa
 /* ]]> */
 </script>
 <script id="wc-order-attribution-js" src="js/order-attribution.min.js" type="text/javascript"></script>
-<script></script></body>
+<script></script>
+<script src="js/newsLetter.js"></script>
+</body>
 </html>
