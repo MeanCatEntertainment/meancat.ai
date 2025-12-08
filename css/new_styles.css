@@ -1,0 +1,29 @@
+/* new_styles.css is the new stylesheet to use for any new style changes, loaded last in all site pages to override previous wordpress styles. */
+
+/* ============================
+   NAV BAR STYLES & ANIMATION
+   ============================ */
+
+.main_menu ul li a,
+.mobile_menu ul li a {
+    transition: all 0.25s ease-in-out;
+}
+
+/* Hover effect — desktop menu */
+.main_menu ul li a:hover {
+    transform: translateY(-2px);
+    color: #d04109 !important;
+}
+
+/* Subtle background highlight on hover */
+.main_menu ul li:hover,
+.mobile_menu ul li:hover {
+    /* background-color: rgba(0,0,0,0.05); */
+    transition: background-color 0.25s ease-in-out;
+}
+
+/* Force active link highlight in the NON-sticky desktop nav */
+.main_menu a.current,
+.main_menu .current_page_item > a {
+    color: #fb7f04 !important;     /* match sticky active color */
+}
